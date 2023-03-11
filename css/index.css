@@ -8,10 +8,15 @@
 @import "components/navi-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/badge.css";
+
+@import "components/icon-raw.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
 
 body {
   padding: 0;
