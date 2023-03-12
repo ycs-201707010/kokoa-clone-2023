@@ -9,7 +9,7 @@
 @import "components/screen-header.css";
 @import "components/user-components.css";
 @import "components/badge.css";
-
+@import "components/alternative-screen-header.css";
 @import "components/icon-row.css";
 
 /* Screens */
@@ -17,6 +17,8 @@
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat-room.css";
 
 body {
   padding: 0;
