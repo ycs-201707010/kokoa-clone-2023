@@ -43,8 +43,8 @@
   }
 }
 
-/* #splash-screen {
-  background-color: var(--kokoa-yellow);
+#splash-screen {
+  background-color: var(--font-color-opacity-low);
   position: absolute;
   top: 0px;
   width: 100vw;
@@ -59,4 +59,4 @@
 #splash-screen i {
   color: var(--kokoa-brown);
   font-size: 128px;
-} */
+}
