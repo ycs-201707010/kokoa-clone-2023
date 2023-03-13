@@ -14,7 +14,7 @@
         <i class="fa-solid fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <span>21:43</span>
       </div>
       <div class="status-bar__column">
         <span>110%</span>
@@ -29,7 +29,12 @@
       <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        <div>
+          <span
+            class="notification notification--screen-header notification--small"
+          ></span>
+          <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        </div>
       </div>
     </header>
 
@@ -92,24 +97,32 @@
       <ul class="navi__list">
         <li class="navi__btn">
           <a class="navi__link" href="friends.html">
-            <i class="far fa-user fa-2x"></i>
+            <!-- <i class="fa-solid fa-user fa-2x"></i> -->
+            <img src="images/theme_chikawa/maintabIcoFriends@3x.png" />
           </a>
         </li>
         <li class="navi__btn">
           <a class="navi__link" href="chats.html">
-            <!-- <span class="badge navi__notification">1</span> -->
-            <i class="far fa-comment fa-2x"></i>
+            <span class="notification notification--nav notification--move"
+              >93</span
+            >
+            <!-- <i class="fa-regular fa-comment fa-2x"></i> -->
+            <img src="images/theme_chikawa/maintabIcoChats@3x.png" />
           </a>
         </li>
         <li class="navi__btn">
           <a class="navi__link" href="find.html">
-            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+            <!-- <i class="fa-solid fa-magnifying-glass fa-2x"></i> -->
+            <img
+              src="images/theme_chikawa/maintabIcoGameSelected@3x.png"
+              class="selectedTab"
+            />
           </a>
         </li>
         <li class="navi__btn">
           <a class="navi__link" href="more.html">
-            <div class="navi__notification"></div>
-            <i class="fa-solid fa-ellipsis fa-2x"></i>
+            <!-- <i class="fa-solid fa-ellipsis fa-2x"></i> -->
+            <img src="images/theme_chikawa/maintabIcoMore@3x.png" />
           </a>
         </li>
       </ul>

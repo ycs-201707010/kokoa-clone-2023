@@ -1,0 +1,55 @@
+.notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+.notification--nav {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+}
+
+.notification--screen-header {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.notification--small {
+  width: 6px;
+  height: 6px;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  30% {
+    transform: rotateZ(15deg);
+  }
+  60% {
+    transform: rotateZ(-10deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.notification--move {
+  animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+/* div.navi__notification {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  left: 25px;
+  bottom: 25px;
+} */

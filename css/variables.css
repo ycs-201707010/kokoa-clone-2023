@@ -1,7 +1,6 @@
 :root {
-  --kokoa-yellow: #fae100;
-  --kokoa-brown: #3c1e1e;
-  --navi-bar-color: #f9f9fa;
+  --font-color: #1c5491;
+  --font-color-opacity-low: #729bc7;
   --top-space: 50px;
   --horizontal-space: 20px;
   --main-border: 1px solid rgba(0, 0, 0, 0.3);

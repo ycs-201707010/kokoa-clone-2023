@@ -15,3 +15,16 @@
 .settings__setting--column:last-child {
   opacity: 0.5;
 }
+
+.settings-list .settings__setting:last-child {
+  border: none;
+}
+
+.settings-list:first-child {
+  margin-bottom: 35px;
+}
+
+.list-border {
+  border: var(--main-border);
+  margin-bottom: 35px;
+}

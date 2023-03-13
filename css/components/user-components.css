@@ -8,6 +8,10 @@
   justify-content: space-between;
 }
 
+.user-component--chats {
+  margin-bottom: 11px;
+}
+
 .friends-screen__channel .user-component .user-component__column:last-child,
 .main-screen .user-component .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
@@ -22,7 +26,7 @@
 .user-component__avatar {
   width: 70px;
   height: 70px;
-  border-radius: 25px;
+  border-radius: 35%;
   margin-right: 16px;
   object-fit: cover;
 }
@@ -40,6 +44,14 @@
 .user-component__text {
   font-size: 20px;
   font-weight: 600;
+}
+
+.user-component__text > div {
+  display: flex;
+}
+
+.user-component__name {
+  margin-right: 5px;
 }
 
 .user-component__name--light {
